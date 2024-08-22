@@ -6,7 +6,7 @@ int main(){
     float milimetros;
      
      printf("digite metros: ");
-     scanf("%f", metros);
+     scanf("%f", &metros);
 
      decimetros = metros * 10;
      centimetros = metros * 100;
